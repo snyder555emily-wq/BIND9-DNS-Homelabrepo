@@ -10,10 +10,9 @@
 // configuration located in /usr/share/doc/bind-{version}/Bv9ARM.html
 
 acl internal {
-	10.0.0.0/24;
+	10.6.0.0/24;
 	localhost;
 	localnets;
-	192.168.65.0/24;
 };
 
 options {

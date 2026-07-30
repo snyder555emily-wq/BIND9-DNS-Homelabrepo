@@ -10,9 +10,7 @@ $ORIGIN home.lan.
                                 )
 @           IN      NS      ns1.home.lan.
 
-ns1		    IN      A	    192.168.0.75
+ns1		    IN      A	    10.0.0.21
 
 ; Main VLAN network services
-router		IN		A		192.168.0.1
-ap1         IN      A       192.168.0.2
-pc1			IN      A       192.168.0.101
+router		IN		A		10.0.0.1
